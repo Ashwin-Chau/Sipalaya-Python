@@ -23,6 +23,7 @@
 # }
 
 # a.setdefault("address","chit")
+# print(a)
 
 # a["address"]="chitwan"
 
