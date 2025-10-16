@@ -45,3 +45,33 @@
 # var=dict.fromkeys(a,"present")
 # var['hari']="absent"
 # print(var)
+
+
+#nested dictionary :one dictionary inside another dictionary
+
+# a={
+#     "name":"sujan",
+#     "age":88,
+#     "marks":["sujan","ram"]
+# }
+
+# var=a["marks"]
+# print(var[0])
+
+
+marks={
+    "roll no 1":{
+        "name":"ashiwn",
+        "age":99
+    },
+    "roll no 2":{
+        "name":"sab",
+        "age":17
+    }
+}
+
+# var=marks["roll no 1"] #{'name': 'ashiwn', 'age': 99}
+# # print(var["name"])
+# print(marks["roll no 1"]["name"])
+
+print(marks["roll no 2"]["name"])

@@ -12,6 +12,8 @@ ouput=["ram",1,2,3,4]
 
 
 input=["ram",1,2,3,3,4,4,4]
+
 dict = dict.fromkeys(input)
-list = list(dict)
+list = list(dict.keys())
 print(list)
+

@@ -1,11 +1,11 @@
 # data types : classification of data which variable hold
 
-# numeric data types
-# sequence data type
-# set
+# numeric data types   : int,float,complex
+# sequence data type   : str,list,tuple,range
+# set  :Set,frozenset
 # map : dictionary
 # boolean data types
-# binary data types
+# binary data types  : byte, bytearray,memoryview
 # none data types
 
 a="ashiwn"
