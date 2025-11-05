@@ -59,6 +59,18 @@
 
 # show(1,2,3,4,5)
 
+# def summation(a,b):
+#     print(a+b)
+# summation(2,3)
+
+
+def summation(*a):
+    b = 0
+    for i in a:
+        b+=i 
+    print(b)
+summation(2,3,4,5,6,7)
+
 
 #keyword arbitary argument
 

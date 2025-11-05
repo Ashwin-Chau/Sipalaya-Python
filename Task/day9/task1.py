@@ -21,7 +21,6 @@ Write a Python function to find the maximum of three numbers.
 
 
 
-
 def maximun(a,b,c):
     if a > b and a > c:
         print(f"{a} is maximun")
