@@ -2,7 +2,7 @@
 
 #procedural programming : variable,function,loop
 #functional programming : focus on function rather object == list(map(lambda))
-#decalarative : focus on achievement/answer eg:- list comprehension
+#decalarative : focus on achievement/answer (eg:- list comprehension)
 #OOP : it organize all model in object
 
 # OOP :- variable is also object
