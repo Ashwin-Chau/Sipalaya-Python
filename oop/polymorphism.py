@@ -153,3 +153,47 @@
 
 # ob=A("ram")
 # v=ob()
+
+
+
+
+# class A():
+#     def show(self):
+#         print("A")
+# class B(A):
+#     def show(self):
+#         print("B")
+#         super().show()
+# class C(A):
+#     def show(self):
+#         print("C")
+#         super().show()
+# class D(B,C):
+#     def show(self):
+#         print("D")
+#         super().show()
+
+# ob=D()
+# ob.show()
+
+# D ---> B --- > C ---> A
+
+
+
+class A():
+    def show(self):
+        print("A")
+        super().show()
+class B():
+    def show(self):
+        print("B")
+       
+class C(A,B):
+    def show(self):
+        print("C")
+        super().show()
+
+ob=C()
+ob.show()
+
+# C ---> A -----> B 

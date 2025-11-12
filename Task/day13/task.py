@@ -19,3 +19,4 @@ class D(B, C):
 
 ob = D()
 ob.show()
+
