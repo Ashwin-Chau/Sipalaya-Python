@@ -9,11 +9,24 @@ maintenance
 
 
 type of module :
-#built in module : precoded by python
-#user define module
+#built in module : pre-coded modules that come with Python itself — you don’t need to install anything.
+#user define module : modules you create yourself — basically, your own .py files with reusable functions or classes.
+#external module : modules developed by others and available on the Python Package Index (PyPI). You must install them using pip.
 
 
-scripts,module,package,library
+scripts : a Python file (.py) meant to be run directly — it performs some action or task.
+module : a Python file (.py) that contains code you want to reuse — functions, classes, variables, etc.
+
+package : (a folder that contains multiple modules and a special file named __init__.py.) 
+        collection of module (folder1 ----> __init__.py : to say it is package
+                                      ---->module.py
+                                      ----> module1.py  
+                                      ----> module2.py  
+
+library : (a collection of packages and modules designed to solve specific kinds of problems.) 
+             collection of package is library (folder --->package1
+                                                      --->package2
+                                                      --->package3)
 '''
 
 # import random
@@ -77,3 +90,28 @@ scripts,module,package,library
 # from math import sqrt as a #used when (name is hard / two module have same name)
 # c=a(36)
 # print(c)
+
+
+
+
+
+# user defined
+
+# import file
+# print(file.names)
+# print(file.show(2, 3))
+
+
+
+
+# from file import names,show
+# print(names)
+# print(show(2, 3))
+
+
+
+
+
+# from file import * #use * when all the things needed of that file
+# print(names)
+# print(show(2, 3))
